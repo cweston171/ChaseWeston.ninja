@@ -1,0 +1,83 @@
+/* CSS Document */
+/* Style overrides on Bootstrap theme */
+.navbar-default {
+  background-image: none;
+  background-color: #262626; }
+
+.navbar-nav > li > a {
+  background-image: none;
+  background-color: #262626; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  backgrond-color: black; }
+
+/* APP Font Settings */
+body {
+  font-family: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 22px; }
+
+/* classes */
+.MEvs {
+  font-family: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 600; }
+
+.MEvsBold {
+  font-family: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 900; }
+
+.MEvsLight {
+  font-family: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+
+.MEvsThin {
+  font-family: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+
+/* CW.Ninja Loader */
+.cwnja-overlay {
+  display: block;
+  position: absolute;
+  z-index: 9990;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* fallback */
+  height: 100%;
+  /* fallback */
+  width: 100vw;
+  height: 100vh;
+  background-color: #294960; }
+  .cwnja-overlay .ico-text {
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 120px;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -90px;
+    text-align: center; }
+    .cwnja-overlay .ico-text .text {
+      margin-top: 40px; }
+
+body {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/blue-wallpaper-36.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: black; }
+
+.cwnja-content-block-black {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.75); }
+
+.glow-white {
+  box-shadow: 0 0 50px rgba(235, 245, 249, 0.75); }
+
+.clear20 {
+  clear: both;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=main.css.map */

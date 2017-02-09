@@ -1,0 +1,38 @@
+/* CW.Ninja Loader */
+$ffamily: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+.cwnja-overlay {
+	display: block;
+	position: absolute;
+	z-index: 9990;
+	top: 0;
+	left: 0;
+	width: 100%; /* fallback */
+	height: 100%; /* fallback */
+	width: 100vw;
+	height: 100vh;
+	
+	background: {
+		color: hsla(206,40%,27%,1.00);
+	}
+	
+	.ico-text {
+		display: block;
+		position: absolute;
+		height: 200px;
+		width: 120px;
+		
+		top: 50%;
+		margin-top: -100px;
+		left: 50%;
+		margin-left: -90px;
+		
+		text: {
+			align: center;
+		}
+		
+		.text {
+			margin-top: 40px;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+/* APP Font Settings */
+$ffamily: "mr-eaves-xl-modern", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+body {
+	font: {
+		family: $ffamily;
+		size: 22px;
+	}
+}
+
+/* classes */
+.MEvs {
+	font: {
+		family: $ffamily;
+		weight: 600;
+	}
+}
+.MEvsBold {
+	font: {
+		family: $ffamily;
+		weight: 900;
+	}
+}
+.MEvsLight {
+	font: {
+		family: $ffamily;
+		weight: 300;
+	}
+}
+.MEvsThin {
+	font: {
+		family: $ffamily;
+		weight: 100;
+	}
+}

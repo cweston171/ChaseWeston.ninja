@@ -1,0 +1,28 @@
+/* CW.Ninja Loader */
+.cwnja-overlay {
+  display: block;
+  position: absolute;
+  z-index: 9990;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* fallback */
+  height: 100%;
+  /* fallback */
+  width: 100vw;
+  height: 100vh;
+  background-color: #294960; }
+  .cwnja-overlay .ico-text {
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 120px;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -90px;
+    text-align: center; }
+    .cwnja-overlay .ico-text .text {
+      margin-top: 40px; }
+
+/*# sourceMappingURL=loader.css.map */

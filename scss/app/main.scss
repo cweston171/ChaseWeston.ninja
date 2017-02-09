@@ -1,0 +1,30 @@
+/* CSS Document */
+
+@import '_bootstrapOverride';
+@import '_fontSettings';
+@import 'shared/loader';
+
+
+body {
+	background: {
+		image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/blue-wallpaper-36.jpg');
+		repeat: no-repeat;
+		position: center center;
+		size: cover;
+		color: black;
+	}
+}
+
+.cwnja-content-block-black {
+	background: {
+		color: rgb(0,0,0);
+		color: rgba(0,0,0, 0.75);
+	}
+}
+.glow-white {
+	box-shadow: 0 0 50px rgba(235,245,249,0.75);
+}
+
+
+.clear20 { clear: both;margin-top: 20px; }
+
